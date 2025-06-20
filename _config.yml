@@ -1,0 +1,23 @@
+title: My Jekyll Site
+description: This is a static site built with Jekyll.
+baseurl: ""
+url: "https://yourdomain.com"
+theme: minima
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _config.yml
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

@@ -1,0 +1,15 @@
+- key: Pelle
+  value: "To err is human."
+- key: Links
+  value:
+    - key: GitHub
+      value: "My GitHub"
+      url: "https://github.com/"
+    - key: Blog
+      value: "My Blog"
+      url: "/blog/"
+- key: Skills
+  value:
+    - "Jekyll"
+    - "Ruby"
+    - "Static Sites"
